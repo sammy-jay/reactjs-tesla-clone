@@ -1,0 +1,17 @@
+export const list = [
+  "Model S",
+  "Model 3",
+  "Model X",
+  "Model Y",
+  "Existing Inventory",
+  "Used Inventory",
+  "Trade-in",
+  "Cybertruck",
+  "Roadster",
+  "Semi",
+  "Charging",
+  "Powerwall",
+  "Commercial energy",
+  "Utilities",
+  "Test drive",
+];

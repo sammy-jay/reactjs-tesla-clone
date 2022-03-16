@@ -1,0 +1,26 @@
+.side-bar {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  color: #333;
+  z-index: 5;
+  padding: 5px 15px;
+  padding-top: 30px;
+}
+.side-bar ul {
+  list-style: none;
+}
+.side-bar li {
+  padding: 10px;
+  font-weight: 600;
+  text-align: left;
+  transition: transform linear 0.4s;
+  cursor: pointer;
+}
+.side-bar li:hover {
+  background-color: #f1f5f8;
+  transform: translateX(10px);
+}

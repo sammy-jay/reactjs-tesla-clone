@@ -1,0 +1,74 @@
+.hero {
+  width: 100%;
+  object-fit: contain;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 70px;
+  align-items: center;
+  text-align: center;
+}
+.part-one {
+  margin-top: 20px;
+}
+.part-one h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 3px;
+  font-size: 2.25rem;
+}
+.part-one p {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.part-two {
+  display: flex;
+  width: max-content;
+  margin: 0 auto 2rem;
+}
+@keyframes btnAnim {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.part-two button {
+  margin: 20px;
+  border: 0;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border-radius: 60px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1rem;
+  width: 300px;
+  cursor: pointer;
+  animation-name: btnAnim;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  transition: transform linear 0.25s;
+}
+.part-two button:hover {
+  opacity: 0.75;
+}
+@media screen and (max-width: 750px) {
+  .part-two {
+    flex-direction: column;
+  }
+  .part-two button {
+    margin: 10px;
+  }
+}
+.btn-1 {
+  background-color: #393c41;
+  color: #fff;
+}
+.btn-2 {
+  background-color: #fff;
+}
